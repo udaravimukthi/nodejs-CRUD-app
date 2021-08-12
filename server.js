@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 //create the express app
-const app = express();
+const app = express(); 
 
 //parse request of content type= url encoded
 app.use(bodyParser.urlencoded({extended: true}));
