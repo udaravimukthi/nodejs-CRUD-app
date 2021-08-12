@@ -3,7 +3,7 @@ module.exports = (app) => {
 
     //create a new note
     app.post('/notes',notes.create);
-
+ 
     //retreive all the notes
     app.get('/notes', notes.findAll);
 
